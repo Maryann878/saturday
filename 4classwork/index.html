@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <script>
+        function division(num1, num2) {
+            let output = num1 / num2
+            console.log(output)
+        }
+        division(6, 3)
+    </script>
+
+    <script>
+        let users = [
+            {
+                firstName: 'John',
+                lastName: 'Atseye',
+                age: 32,
+            },
+
+            {
+                firstName: 'Maya',
+                lastName: 'Wealth',
+                age: 12
+            }
+        ]
+
+        let arr1 = users[0].firstName;
+        let arr2 = users[0].lastName;
+        let arr3 = users[1].firstName;
+        let arr4 = users[1].lastName;
+
+        let num1 = users[0].age;
+        let num2 = users[1].age
+
+        let add = ` ${arr1} ${arr2} `
+        let add1 = ` ${arr3} ${arr4} `
+        let add2 = num1 + num2
+
+
+        console.log(add);
+        console.log(add1);
+        console.log(add2);
+
+    </script>
+
+
+<input type="text" id="score">
+<button onclick="Gradescore">Grade</button>
+<p id="pass"></p>
+
+<p id="fail"></p>
+
+<script src="./script.js"></script>
+</body>
+
+</html>
